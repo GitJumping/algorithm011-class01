@@ -3,7 +3,7 @@ package Week_02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InorderTraversal {
+public class MH02_InorderTraversal {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         TreeNode rootRight = new TreeNode(2);
@@ -12,7 +12,7 @@ public class InorderTraversal {
         rootRight.left = secondLeft;
 
 
-        InorderTraversal inorderTraversal = new InorderTraversal();
+        MH02_InorderTraversal inorderTraversal = new MH02_InorderTraversal();
         List<Integer> list = inorderTraversal.inorderTraversal(root);
         for (Integer i : list) {
             System.out.println(i);

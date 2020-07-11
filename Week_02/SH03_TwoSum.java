@@ -6,10 +6,10 @@ import java.util.HashMap;
 /**
  * 20-05-07 first time
  */
-public class TwoSum {
+public class SH03_TwoSum {
     public static void main(String[] args) {
         int[] ints = new int[]{2, 7, 11, 15};
-        TwoSum twoSum = new TwoSum();
+        SH03_TwoSum twoSum = new SH03_TwoSum();
         System.out.println(Arrays.toString(twoSum.twoSum(ints, 9)));
         System.out.println(Arrays.toString(twoSum.twoSumWithHash(ints, 9)));
     }
