@@ -1,12 +1,10 @@
 package Week_01;
 
-import java.util.Arrays;
-
-public class RotateArray {
+public class H04_RotateArray {
     public static void main(String[] args) {
 //        int[] nums = new int[] {1,1,2,3,4,2,3,1,1,2,4,5,6,1,2,-3,3,-4,-4,-8,-8};
         int[] nums = new int[] {5,6,1,2,4,6};
-        RotateArray rotateArray = new RotateArray();
+        H04_RotateArray rotateArray = new H04_RotateArray();
         rotateArray.rotate(nums, 10);
     }
 
