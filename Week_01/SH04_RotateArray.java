@@ -1,10 +1,10 @@
 package Week_01;
 
-public class H04_RotateArray {
+public class SH04_RotateArray {
     public static void main(String[] args) {
 //        int[] nums = new int[] {1,1,2,3,4,2,3,1,1,2,4,5,6,1,2,-3,3,-4,-4,-8,-8};
         int[] nums = new int[] {5,6,1,2,4,6};
-        H04_RotateArray rotateArray = new H04_RotateArray();
+        SH04_RotateArray rotateArray = new SH04_RotateArray();
         rotateArray.rotate(nums, 10);
     }
 

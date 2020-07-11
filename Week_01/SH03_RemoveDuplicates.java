@@ -2,10 +2,10 @@ package Week_01;
 
 import java.util.Arrays;
 
-public class H03_RemoveDuplicates {
+public class SH03_RemoveDuplicates {
     public static void main(String[] args) {
         int[] nums = new int[] {1,1,2,3,4,2,3,1,1,2,4,5,6,1,2,-3,3,-4,-4,-8,-8};
-        H03_RemoveDuplicates r = new H03_RemoveDuplicates();
+        SH03_RemoveDuplicates r = new SH03_RemoveDuplicates();
         Arrays.sort(nums);
         System.out.println(r.removeDuplicates(nums));
     }
